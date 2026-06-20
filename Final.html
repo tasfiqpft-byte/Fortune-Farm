@@ -571,5 +571,9 @@
       }).catch(function() { alert('Network error. Please WhatsApp us directly.'); });
   });
 </script>
+<script type="module">
+  import { injectSpeedInsights } from 'https://cdn.jsdelivr.net/npm/@vercel/speed-insights@1/+esm';
+  injectSpeedInsights();
+</script>
 </body>
 </html>
